@@ -1,8 +1,8 @@
-Summary:	XFCE Notify Daemon
-Summary(pl.UTF-8):	Demon powiadomień XFCE
+Summary:	GIO/GVfs frontend
+#Summary(pl.UTF-8):	
 Name:		gigolo
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://files.uvena.de/gigolo/%{name}-%{version}.tar.bz2
