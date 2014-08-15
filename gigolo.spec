@@ -1,12 +1,12 @@
 Summary:	GIO/GVfs frontend
 #Summary(pl.UTF-8):	
 Name:		gigolo
-Version:	0.4.1
-Release:	2
+Version:	0.4.2
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://files.uvena.de/gigolo/%{name}-%{version}.tar.bz2
-# Source0-md5:	760bdc5753768214b379733a728b0c80
+# Source0-md5:	4abc6fde56572adf3ec3a0181092584c
 URL:		http://www.uvena.de/gigolo/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
