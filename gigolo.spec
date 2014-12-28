@@ -10,7 +10,7 @@ Source0:	http://files.uvena.de/gigolo/%{name}-%{version}.tar.bz2
 URL:		http://www.uvena.de/gigolo/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.16
 BuildRequires:	gtk+2-devel >= 2:2.12
 BuildRequires:	intltool >= 0.35.0
