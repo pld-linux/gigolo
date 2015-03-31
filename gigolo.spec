@@ -1,8 +1,7 @@
 Summary:	GIO/GVfs frontend
-#Summary(pl.UTF-8):	
 Name:		gigolo
 Version:	0.4.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://files.uvena.de/gigolo/%{name}-%{version}.tar.bz2
@@ -24,8 +23,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Gigolo is a frontend to easily manage connections to local and remote
 filesystems using GIO/GVfs. It allows you to quickly connect/mount
 a remote filesystem and manage bookmarks of such.
-
-#%description -l pl.UTF-8
 
 %prep
 %setup -q
