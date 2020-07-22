@@ -1,11 +1,11 @@
 Summary:	GIO/GVfs frontend
 Name:		gigolo
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://archive.xfce.org/src/apps/gigolo/0.5/%{name}-%{version}.tar.bz2
-# Source0-md5:	273111f5d7c26898e5ddea7b97d5dfe1
+# Source0-md5:	94e89ad3fabba7167760004b64062f4a
 URL:		https://goodies.xfce.org/projects/applications/gigolo
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
