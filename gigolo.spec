@@ -1,7 +1,7 @@
 Summary:	GIO/GVfs frontend
 Name:		gigolo
 Version:	0.5.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://archive.xfce.org/src/apps/gigolo/0.5/%{name}-%{version}.tar.bz2
@@ -44,8 +44,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/locale/ur_PK
-%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/locale/ie
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/locale/{hye,ie,ur_PK}
 %{__mv} $RPM_BUILD_ROOT%{_datadir}/locale/{hy_AM,hy}
 
 %find_lang %{name}
