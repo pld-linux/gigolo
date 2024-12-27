@@ -1,18 +1,17 @@
 Summary:	GIO/GVfs frontend
 Name:		gigolo
-Version:	0.5.3
+Version:	0.5.4
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://archive.xfce.org/src/apps/gigolo/0.5/%{name}-%{version}.tar.bz2
-# Source0-md5:	254e6b9600d426573fa252726fadcfe3
+# Source0-md5:	18cc284a85d61ff8e78f907ad6079b03
 URL:		https://goodies.xfce.org/projects/applications/gigolo
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.38.0
 BuildRequires:	gtk+3-devel >= 3.14.0
-BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 1:0.9.0
 Requires(post,postun):	gtk-update-icon-cache
@@ -28,7 +27,6 @@ remote filesystem and manage bookmarks of such.
 %setup -q
 
 %build
-%{__intltoolize}
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
